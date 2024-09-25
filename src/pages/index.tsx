@@ -38,8 +38,8 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <Analytics />
       </main>
+      <Analytics />
     </Layout>
   );
 }
