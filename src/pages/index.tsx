@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -37,6 +38,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <Analytics />
       </main>
     </Layout>
   );
