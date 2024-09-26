@@ -39,6 +39,9 @@ bower_components
 build/Release
 build
 
+# local tmp files
+local_staging
+
 # Dependency directories
 node_modules/
 jspm_packages/
